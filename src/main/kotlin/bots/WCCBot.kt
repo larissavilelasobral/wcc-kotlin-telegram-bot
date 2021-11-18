@@ -14,12 +14,12 @@ class WCCBot : TelegramLongPollingBot() {
     override fun getBotUsername(): String {
         //return bot username
         // If bot username is @HelloKotlinBot, it must return
-        return "HelloKotlinBot"
+        return "LabBot"
     }
 
     override fun getBotToken(): String {
         // Return bot token from BotFather
-        return "[TOKEN-TELEGRAM]"
+        return "2138522059:AAFWqIfLufwQ5OYqMfYOtYm0ERFXyrw1GuQ"
     }
 
     override fun onUpdateReceived(update: Update?) {
